@@ -2,71 +2,46 @@ package model;
 
 
 /**
- * <!-- begin-user-doc -->
- * <!--  end-user-doc  -->
+ * Creamos la clase display donde el operador ejecuta
  * @generated
  */
 
-public class Display
-{
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
+public class Display{
+    String azucar,cafe,chocolate,te;
 	
-	public Producto producto;
+  
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
-	public MaquinaDeCafe maquinaDeCafe;
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 */
-	public Display(){
-		super();
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
+    /**
+     * Seleccionar el producto
+     */
+    public void elegirBebida(){
+        System.out.println("Seleccionar: te, cafe o chocolate");
+     
+    }
+    /**
+     * Añadir azucar al producto
+     */
+    public void añadirAzucar(){
+        System.out.println("Azucar añadido");
+    }
+    /**
+     * Saca por pantalla la elaboracion de la bebida
+     */
 	public void imprimirEstado() {
-		// TODO implement me
+		          System.out.println("Elaborando bebida");
 	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
+/**
+ * sonido de la alrma
+ */
 	public void alarma() {
-		// TODO implement me
+		          System.out.println("ALARMA");
 	}
 
 	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
+         * Mostrar el mensaje de producto terminado
+         */
 	public void imprimir() {
-		// TODO implement me
+		          System.out.println("Producto terminado");
 	}
 
 }

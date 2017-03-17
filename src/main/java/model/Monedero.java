@@ -2,71 +2,39 @@ package model;
 
 
 /**
- * <!-- begin-user-doc -->
- * <!--  end-user-doc  -->
+ * Clase monedero 
  * @generated
  */
+
 
 public class Monedero
 {
 	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
-	public float dinero;
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
-	
-	public MaquinaDeCafe maquinaDeCafe;
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 */
-	public Monedero(){
-		super();
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 * @ordered
-	 */
+         * Introducir dinero en la maquina
+         */
 	
 	public void IntroducirDinero() {
-		// TODO implement me
+		          System.out.println("Dinero introducido en la maquina");
 	}
 
 	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
+	 * Devolver el  dinero introducido
 	 * @generated
 	 * @ordered
 	 */
 	
 	public void cambioCancelar() {
-		// TODO implement me
+		          System.out.println("Vuelta");
 	}
 
 	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
+	 * Devolver el cambio del dinero introducido
 	 * @generated
 	 * @ordered
 	 */
 	
 	public void DevolverCambio() {
-		// TODO implement me
+		          System.out.println("Cambio");
 	}
 
 }
